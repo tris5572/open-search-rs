@@ -2,7 +2,8 @@ use std::path::PathBuf;
 
 /// 使用する検索エンジンのURL。
 /// この文字列に引き続いて、キーワード(ファイル名)が指定される。
-const SEARCH_URL: &str = "http://www.google.com/search?q=";
+const SEARCH_URL: &str = "https://duckduckgo.com/?t=h_&ia=web&q=";
+// const SEARCH_URL: &str = "http://www.google.com/search?q=";
 
 fn main() {
     let args: Vec<String> = std::env::args().collect();
